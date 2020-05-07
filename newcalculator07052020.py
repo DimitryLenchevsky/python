@@ -28,7 +28,6 @@ pass
 
 persons = {}
 info = [last_name, first_name, middle_name, weight, height, age, bmi, sex]
-print(info)
 
 persons['Фамилия'] = info[0]
 persons['Имя'] = info[1]
