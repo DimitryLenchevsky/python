@@ -10,10 +10,10 @@ person = {}
 while choice != 1:
 
     print("\t1. Выход \n\
-    2. Add contact \n\
-    3. Replace contact \n")
+    2. Добавить контакт \n\
+    3. Заменить контакт \n")
 
-    choice = int(input("\tYour choice: \n"))
+    choice = int(input("\tВаш выбор: \n"))
 
     if choice == 1:
         exit()
@@ -57,7 +57,7 @@ while choice != 1:
             scale = '10' + "=" * int(first) + tick + "=" * int(second) + "50"
             print(scale)
         except Exception:
-            print("O-o-ops, something went wrong")
+            print("Упс, что-то пошло не так")
 
 print("Полный список пользователей: ")
 print(person)
