@@ -51,5 +51,3 @@ while True:
 
         scale = '10' + "=" * int(first) + tick + "=" * int(second) + "50"
         print(scale)
-
-
