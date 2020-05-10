@@ -42,11 +42,18 @@ def recomendation(bmi):
         print("Ожирение резкое, срочно сходите к врачу!")
     elif bmi > 40:
         print("Очень резкое ожирение, срочно сходите к врачу!")
+    scale(bmi)
+
+def scale(bmi):
+    tick = "|"
+    first = bmi - 10
+    second = 50 - bmi
+    scale = '10' + "=" * int(first) + tick + "=" * int(second) + "50"
+    print(scale)
 
 def main():
     while True:
         start_menu()
-
 
 
 
