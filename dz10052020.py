@@ -15,13 +15,15 @@ def choose(choice):
         height = int(input("Введите Ваш рост в сантиметрах: "))
         sex = input("Введите Ваш пол: ")
         age = int(input("Введите Ваш возраст: "))
+        value = [weight, height, sex, age]
+        person[key] = value
+        conclusion_person()
     else:
             print("Упс, что-то пошло не так")
-    #create_user()
-
-#def create_user:
-#далее когда пытаюсь создать пользователя в словаре, ловлю кучу ошибок.
-#На данном этапе код работает только в меню и сборе данных.
+    
+def conclusion_person():
+    for key, value in person.items():
+        print(key, ",", value)
 
 
 person = {}
