@@ -1,8 +1,8 @@
 with open("task.txt", "r") as file:
     line = file.readline()
-    safari = []
-    chrome = []
-    firefox = []
+    safari17 = []
+    chrome17 = []
+    firefox17 = []
     a = "17/May"
     b = "18/May"
     c = "19/May"
@@ -15,21 +15,21 @@ with open("task.txt", "r") as file:
             ff = "Firefox"
             ch = "Chrome"
             if saf in choose:
-                safari.append(s_sel)
+                safari17.append(s_sel)
             elif ff in choose:
-                firefox.append(s_sel)
+                firefox17.append(s_sel)
             elif ch in choose:
-                chrome.append(s_sel)
+                chrome17.append(s_sel)
 print("Количество браузеров за 17 мая:")        
-print("Браузер Safari: " + str(len(safari)))
-print("Браузер Firefox: " + str(len(firefox)))
-print("Браузер Chrome: " + str(len(chrome)))
+print("Браузер Safari: " + str(len(safari17)))
+print("Браузер Firefox: " + str(len(firefox17)))
+print("Браузер Chrome: " + str(len(chrome17)))
             
 with open("task.txt", "r") as file:
     line = file.readline()
-    safari = []
-    chrome = []
-    firefox = []
+    safari18 = []
+    chrome18 = []
+    firefox18 = []
     a = "17/May"
     b = "18/May"
     c = "19/May"
@@ -42,21 +42,21 @@ with open("task.txt", "r") as file:
             ff = "Firefox"
             ch = "Chrome"
             if saf in choose:
-                safari.append(s_sel)
+                safari18.append(s_sel)
             elif ff in choose:
-                firefox.append(s_sel)
+                firefox18.append(s_sel)
             elif ch in choose:
-                chrome.append(s_sel)
+                chrome18.append(s_sel)
 print("Количество браузеров за 18 мая:")        
-print("Браузер Safari: " + str(len(safari)))
-print("Браузер Firefox: " + str(len(firefox)))
-print("Браузер Chrome: " + str(len(chrome)))
+print("Браузер Safari: " + str(len(safari18)))
+print("Браузер Firefox: " + str(len(firefox18)))
+print("Браузер Chrome: " + str(len(chrome18)))
             
 with open("task.txt", "r") as file:
     line = file.readline()
-    safari = []
-    chrome = []
-    firefox = []
+    safari19 = []
+    chrome19 = []
+    firefox19 = []
     a = "17/May"
     b = "18/May"
     c = "19/May"
@@ -69,21 +69,21 @@ with open("task.txt", "r") as file:
             ff = "Firefox"
             ch = "Chrome"
             if saf in choose:
-                safari.append(s_sel)
+                safari19.append(s_sel)
             elif ff in choose:
-                firefox.append(s_sel)
+                firefox19.append(s_sel)
             elif ch in choose:
-                chrome.append(s_sel)
+                chrome19.append(s_sel)
 print("Количество браузеров за 19 мая:")        
-print("Браузер Safari: " + str(len(safari)))
-print("Браузер Firefox: " + str(len(firefox)))
-print("Браузер Chrome: " + str(len(chrome)))
+print("Браузер Safari: " + str(len(safari19)))
+print("Браузер Firefox: " + str(len(firefox19)))
+print("Браузер Chrome: " + str(len(chrome19)))
 
 with open("task.txt", "r") as file:
     line = file.readline()
-    safari = []
-    chrome = []
-    firefox = []
+    safari20 = []
+    chrome20 = []
+    firefox20 = []
     a = "17/May"
     b = "18/May"
     c = "19/May"
@@ -96,17 +96,14 @@ with open("task.txt", "r") as file:
             ff = "Firefox"
             ch = "Chrome"
             if saf in choose:
-                safari.append(s_sel)
+                safari20.append(s_sel)
             elif ff in choose:
-                firefox.append(s_sel)
+                firefox20.append(s_sel)
             elif ch in choose:
-                chrome.append(s_sel)
+                chrome20.append(s_sel)
 print("Количество браузеров за 12 мая:")        
-print("Браузер Safari: " + str(len(safari)))
-print("Браузер Firefox: " + str(len(firefox)))
-print("Браузер Chrome: " + str(len(chrome)))
-print(safari)
+print("Браузер Safari: " + str(len(safari20)))
+print("Браузер Firefox: " + str(len(firefox20)))
+print("Браузер Chrome: " + str(len(chrome20)))
 
-#пока вот так. Код - вырви глаза
-#это пока лучшее что я придумал, из того что хотя бы работает.
 
