@@ -101,11 +101,11 @@ with open("task.txt", "r") as file:
                 firefox.append(s_sel)
             elif ch in choose:
                 chrome.append(s_sel)
-print("Количество браузеров за 120 мая:")        
+print("Количество браузеров за 12 мая:")        
 print("Браузер Safari: " + str(len(safari)))
 print("Браузер Firefox: " + str(len(firefox)))
 print("Браузер Chrome: " + str(len(chrome)))
-            
+print(safari)
 
 #пока вот так. Код - вырви глаза
 #это пока лучшее что я придумал, из того что хотя бы работает.
